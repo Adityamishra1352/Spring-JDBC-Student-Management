@@ -14,7 +14,7 @@ public class SpringJdbCxApplication {
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(SpringJdbCxApplication.class, args);
 		Student s = context.getBean(Student.class);
-		s.setRollNo(101);
+		s.setRollNo(104);
 		s.setName("Aditya Mishra");
 		s.setMarks(78);
 		StudentService service = context.getBean(StudentService.class);
